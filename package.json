@@ -1,0 +1,32 @@
+{
+  "name": "dex-aggregator",
+  "version": "1.0.0",
+  "description": "DEX aggregator for finding best swap prices across multiple DEXes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dex",
+    "aggregator",
+    "ethereum",
+    "defi",
+    "uniswap",
+    "sushiswap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sushiswap/sdk": "^5.0.0-canary.116",
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
